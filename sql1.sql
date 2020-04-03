@@ -10,7 +10,7 @@ foreign key(idgafanhoto) references gafanhoto(id)
 describe assiste;
 
 insert into assiste values
-(default, now(), '1', '2'),
+(default, now(), '1', '3'),
 (default, now(), '3', '6'),
 (default, now(), '22', '12'),
 (default, now(), '1', '19');
